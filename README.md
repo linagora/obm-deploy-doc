@@ -5,9 +5,32 @@ Ansible based Open Business Management (**[OBM]**) full-featured deployment tool
 
 -----------------------------
 
-[TOC]
-* auto-gen TOC:
-{:toc}
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](http://doctoc.herokuapp.com/)*
+
+  - [](#)
+- [OBM-Deploy project](#obm-deploy-project)
+  - [Objectives](#objectives)
+  - [Current Status](#current-status)
+  - [Disclaimer](#disclaimer)
+  - [Need Help](#need-help)
+  - [](#-1)
+- [Documentation](#documentation)
+  - [About ansible](#about-ansible)
+  - [Installation](#installation)
+  - [Quick start](#quick-start)
+  - [Inventories](#inventories)
+  - [Configuration](#configuration)
+  - [Roles index](#roles-index)
+  - [Mirror Mode](#mirror-mode)
+  - [](#-2)
+- [Development](#development)
+  - [Roadmap](#roadmap)
+  - [Get involved](#get-involved)
+  - [](#-3)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 -----------------------------
 

@@ -5,7 +5,21 @@ Also, regarding to the installation method you use, your virtualhost must be act
 
 -----------------------------
 
-[TOC]
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](http://doctoc.herokuapp.com/)*
+
+  - [](#)
+  - [](#-1)
+- [Prerequisites](#prerequisites)
+  - [Root access](#root-access)
+  - [Host names resolving](#host-names-resolving)
+  - [SSH connection without a key pair](#ssh-connection-without-a-key-pair)
+  - [Sudo usage](#sudo-usage)
+- [OBM-Deploy usage](#obm-deploy-usage)
+  - [Installing an obm-full (all services on the same host)](#installing-an-obm-full-all-services-on-the-same-host)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 -----------------------------
 

@@ -7,7 +7,52 @@ We recommend you to choose a manual installation strategy even if this is a litt
 
 -----------------------------
 
-[TOC]
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](http://doctoc.herokuapp.com/)*
+
+  - [](#)
+  - [](#-1)
+- [Common packages for all methods](#common-packages-for-all-methods)
+  - [Install common packages on Debian GNU/Linux Wheezy](#install-common-packages-on-debian-gnulinux-wheezy)
+  - [Install common packages on CentOS Linux 6](#install-common-packages-on-centos-linux-6)
+- [Packages based installation](#packages-based-installation)
+  - [Packages installation on Debian GNU/Linux Wheezy](#packages-installation-on-debian-gnulinux-wheezy)
+    - [Enable Wheezy Backports](#enable-wheezy-backports)
+    - [Install packages](#install-packages)
+  - [Packages installation on CentOS Linux 6](#packages-installation-on-centos-linux-6)
+    - [Enable EPEL repository](#enable-epel-repository)
+    - [Install packages](#install-packages-1)
+- [Common prerequisites for manual methods](#common-prerequisites-for-manual-methods)
+  - [Install prerequisites on Debian GNU/Linux Wheezy](#install-prerequisites-on-debian-gnulinux-wheezy)
+    - [Enable Wheezy Backports](#enable-wheezy-backports-1)
+    - [Install packages](#install-packages-2)
+  - [Install prerequisites on CentOS Linux 6](#install-prerequisites-on-centos-linux-6)
+    - [Enable EPEL repository](#enable-epel-repository-1)
+    - [Install packages](#install-packages-3)
+- [Manual installation using PIP and virtualenv](#manual-installation-using-pip-and-virtualenv)
+  - [Clone OBM-Deploy GIT repository](#clone-obm-deploy-git-repository)
+  - [Create a Python virtualenv in obm-deploy directory](#create-a-python-virtualenv-in-obm-deploy-directory)
+  - [Activate your virtualenv](#activate-your-virtualenv)
+  - [Install dependencies into your virtualenv](#install-dependencies-into-your-virtualenv)
+  - [Clone Ansible GIT repository](#clone-ansible-git-repository)
+  - [Activate Ansible environment](#activate-ansible-environment)
+  - [Exit from your virtualenv](#exit-from-your-virtualenv)
+  - [Each time you want to work with OBM-Deploy](#each-time-you-want-to-work-with-obm-deploy)
+- [Manual installation using virtualenvwrapper (recommended)](#manual-installation-using-virtualenvwrapper-recommended)
+  - [Install virtualenvwrapper on Debian GNU/Linux Wheezy](#install-virtualenvwrapper-on-debian-gnulinux-wheezy)
+  - [Install virtualenvwrapper on CentOS Linux 6](#install-virtualenvwrapper-on-centos-linux-6)
+  - [Clone OBM-Deploy GIT repository](#clone-obm-deploy-git-repository-1)
+  - [Create a Python virtualenv in obm-deploy directory](#create-a-python-virtualenv-in-obm-deploy-directory-1)
+  - [Activate your virtualenv](#activate-your-virtualenv-1)
+  - [Install dependencies into your virtualenv](#install-dependencies-into-your-virtualenv-1)
+  - [Clone Ansible GIT repository](#clone-ansible-git-repository-1)
+  - [Activate Ansible environment](#activate-ansible-environment-1)
+  - [Activate Ansible auto-setup in your virtualenv](#activate-ansible-auto-setup-in-your-virtualenv)
+  - [Exit from your virtualenv](#exit-from-your-virtualenv-1)
+  - [Each time you want to work with OBM-Deploy](#each-time-you-want-to-work-with-obm-deploy-1)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 -----------------------------
 

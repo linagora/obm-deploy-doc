@@ -4,8 +4,22 @@ Inventory file allows you to describe your OBM infrastructure.
 For more informations about inventory files, please refer to [Ansible's dedicated documentation].
 
 -----------------------------
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](http://doctoc.herokuapp.com/)*
 
-[TOC]
+  - [](#)
+  - [](#-1)
+- [obmfull-example inventory file](#obmfull-example-inventory-file)
+  - [Quick introduction](#quick-introduction)
+  - [First steps of customization](#first-steps-of-customization)
+- [More advanced customization](#more-advanced-customization)
+  - [Nested groups](#nested-groups)
+  - [Ansible limitation in nested groups](#ansible-limitation-in-nested-groups)
+  - [Focus on groups](#focus-on-groups)
+  - [Advanced example](#advanced-example)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 -----------------------------
 
