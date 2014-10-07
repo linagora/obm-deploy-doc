@@ -60,8 +60,6 @@ Need Help
 Need help using obm-deploy ?
 Use our **[mailing-list]** or our **[#obm IRC channel]** on freenode to ask your questions.
 
------------------------------
-
 Documentation
 =============
 
@@ -100,7 +98,6 @@ Mirror Mode
 
 [Mirror-mode](docs/mirror-mode.md) : Deploy remote nodes without Internet access.
 
-
 Development
 ===========
 
@@ -113,7 +110,6 @@ Get involved
 -----------------
 
 [Contribute](docs/contribute.md) : Leave your own mark on the project.
-
 
 > Written with [StackEdit](https://stackedit.io/).
 
