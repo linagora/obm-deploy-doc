@@ -3,7 +3,7 @@ Ansible based Open Business Management (**[OBM]**) full-featured deployment tool
 
 *OBM Installations made easy !*
 
------------------------------
+#### Table of contents
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
@@ -26,8 +26,6 @@ Ansible based Open Business Management (**[OBM]**) full-featured deployment tool
   - [Get involved](#get-involved)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
------------------------------
 
 OBM-Deploy project
 =================
@@ -102,7 +100,6 @@ Mirror Mode
 
 [Mirror-mode](docs/mirror-mode.md) : Deploy remote nodes without Internet access.
 
------------------------------
 
 Development
 ===========
@@ -117,7 +114,6 @@ Get involved
 
 [Contribute](docs/contribute.md) : Leave your own mark on the project.
 
------------------------------
 
 > Written with [StackEdit](https://stackedit.io/).
 
