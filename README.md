@@ -71,7 +71,7 @@ About ansible
 Installation
 ---------------
 
-[Installation](docs/installation.md) : Instructions to install OBM-Deploy.
+[Installation](docs/install.md) : Instructions to install OBM-Deploy.
 
 Quick start
 ---------------
