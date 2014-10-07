@@ -1,5 +1,5 @@
 
-Ansible based Open Business Management (**OBM**)[^obm] full-featured deployment tool.
+Ansible based Open Business Management (**[OBM]**) full-featured deployment tool.
 
 *OBM Installations made easy !*
 
@@ -40,7 +40,7 @@ Need Help
 --------------
 
 Need help using obm-deploy ?
-Use our **mailing-list**[^mailing-list] or our **#obm IRC channel**[^irc] on freenode to ask your questions.
+Use our **[mailing-list]** or our **[#obm IRC channel]** on freenode to ask your questions.
 
 -----------------------------
 
@@ -101,8 +101,8 @@ Get involved
 
 > Written with [StackEdit](https://stackedit.io/).
 
-[^obm]:[OBM](http://obm.org) : The new generation of collaborative software
+[OBM]: http://obm.org "The new generation of collaborative software"
 
-[^mailing-list]:[mailing-list](http://obm.org/node/19) : OBM official mailing-list
+[mailing-list]: http://obm.org/node/19 "OBM official mailing-list"
 
-[^irc]:[#OBM](http://irc.lc/freenode/obm/) : Webchat to official #obm channel on freenode
+[#OBM irc channel]: http://irc.lc/freenode/obm/ "Webchat to official #obm channel on freenode"
