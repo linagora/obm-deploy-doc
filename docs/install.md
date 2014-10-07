@@ -9,10 +9,7 @@ We recommend you to choose a manual installation strategy even if this is a litt
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](http://doctoc.herokuapp.com/)*
 
-  - [](#)
-  - [](#-1)
 - [Common packages for all methods](#common-packages-for-all-methods)
   - [Install common packages on Debian GNU/Linux Wheezy](#install-common-packages-on-debian-gnulinux-wheezy)
   - [Install common packages on CentOS Linux 6](#install-common-packages-on-centos-linux-6)

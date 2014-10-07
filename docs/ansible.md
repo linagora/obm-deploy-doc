@@ -5,10 +5,7 @@ Ansible is a tool to automate tasks execution on remote hosts.
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](http://doctoc.herokuapp.com/)*
 
-  - [](#)
-  - [](#-1)
 - [Ansible documentation](#ansible-documentation)
   - [YAML Syntax](#yaml-syntax)
   - [Jinja2 Templates](#jinja2-templates)

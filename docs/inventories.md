@@ -6,10 +6,7 @@ For more informations about inventory files, please refer to [Ansible's dedicate
 -----------------------------
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](http://doctoc.herokuapp.com/)*
 
-  - [](#)
-  - [](#-1)
 - [obmfull-example inventory file](#obmfull-example-inventory-file)
   - [Quick introduction](#quick-introduction)
   - [First steps of customization](#first-steps-of-customization)
