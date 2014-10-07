@@ -3,7 +3,8 @@ Inventory file allows you to describe your OBM infrastructure.
 
 For more informations about inventory files, please refer to [Ansible's dedicated documentation].
 
------------------------------
+#### Table of contents
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
@@ -17,8 +18,6 @@ For more informations about inventory files, please refer to [Ansible's dedicate
   - [Advanced example](#advanced-example)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
------------------------------
 
 obmfull-example inventory file
 ==========================

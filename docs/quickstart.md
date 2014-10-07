@@ -3,7 +3,7 @@ This documentation makes the assumption that your shell is located to the direct
 
 Also, regarding to the installation method you use, your virtualhost must be activated.
 
------------------------------
+#### Table of contents
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
@@ -17,8 +17,6 @@ Also, regarding to the installation method you use, your virtualhost must be act
   - [Installing an obm-full (all services on the same host)](#installing-an-obm-full-all-services-on-the-same-host)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
------------------------------
 
 Prerequisites
 ===========

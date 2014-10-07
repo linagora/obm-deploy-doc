@@ -5,7 +5,7 @@ Manual installations methods are to work with almost all Linux or BSD flavors, i
 
 We recommend you to choose a manual installation strategy even if this is a little bit difficult.
 
------------------------------
+#### Table of contents
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
@@ -50,8 +50,6 @@ We recommend you to choose a manual installation strategy even if this is a litt
   - [Each time you want to work with OBM-Deploy](#each-time-you-want-to-work-with-obm-deploy-1)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
------------------------------
 
 Common packages for all methods
 ============================
