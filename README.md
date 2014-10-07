@@ -6,6 +6,8 @@ Ansible based Open Business Management (**[OBM]**) full-featured deployment tool
 -----------------------------
 
 [TOC]
+* auto-gen TOC:
+{:toc}
 
 -----------------------------
 
