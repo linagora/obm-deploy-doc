@@ -79,5 +79,3 @@ Then, you can make your first automated deployment :
 ```.bash
 $ ansible-playbook -i obmfull-example obm.yml
 ```
-
-> Written with [StackEdit](https://stackedit.io/).

@@ -316,6 +316,4 @@ Each time you want to work with OBM-Deploy
 $ workon obm-deploy-env
 ```
 
-> Written with [StackEdit](https://stackedit.io/).
-
 [Oliver Welge's article]: http://weluse.de/blog/installing-ansible-on-os-x.html "Oliver Welge's article about Ansible installation"

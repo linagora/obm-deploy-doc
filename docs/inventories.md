@@ -199,8 +199,6 @@ smtp1.example.com
 smtp2.example.com
 ```
 
-> Written with [StackEdit](https://stackedit.io/).
-
 [Ansible's dedicated documentation]: http://docs.ansible.com/intro_inventory.html "Inventory on docs.ansible.com"
 
 [roles reference]: ../roles.md "Roles reference"

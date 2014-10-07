@@ -78,8 +78,6 @@ Variable
 
 Do I really need to define what is a [variable] ?
 
-> Written with [StackEdit](https://stackedit.io/).
-
 [YAML syntax]: http://docs.ansible.com/YAMLSyntax.html "YAML syntax on docs.ansible.com"
 
 [Jinja2 engine]: http://docs.ansible.com/playbooks_variables.html "Jinja2 engine on docs.ansible.com"

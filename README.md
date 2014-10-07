@@ -111,8 +111,6 @@ Get involved
 
 [Contribute](docs/contribute.md) : Leave your own mark on the project.
 
-> Written with [StackEdit](https://stackedit.io/).
-
 [OBM]: http://obm.org "The new generation of collaborative software"
 
 [mailing-list]: http://obm.org/node/19 "OBM official mailing-list"
