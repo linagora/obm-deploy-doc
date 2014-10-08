@@ -1,5 +1,6 @@
+<a name="top-page"></a>
 
-This documentation is based on [Oliver Welge's article].
+This documentation is based on [Oliver Welge's article](http://weluse.de/blog/installing-ansible-on-os-x.html "Oliver Welge's article about Ansible installation").
 
 Manual installations methods are to work with almost all Linux or BSD flavors, including OSX.
 
@@ -53,7 +54,8 @@ We recommend you to choose a manual installation strategy even if this is a litt
 
 <a name="common-packages-for-all-methods"></a>
 
-Common packages for all methods
+<br>
+Common packages for all methods [&#x25B2;](#top-page)
 ============================
 
 First of all, you need to install git.
@@ -65,9 +67,7 @@ Install common packages on Debian GNU/Linux Wheezy
 
 *This step should also works on other .deb based distros (Ubuntu, Mint ...).*
 
-```.bash
-$ sudo aptitude install git python-dev wget
-```
+    $ sudo aptitude install git python-dev wget
 
 <a name="install-common-packages-on-centos-linux-6"></a>
 
@@ -76,40 +76,45 @@ Install common packages on CentOS Linux 6
 
 *This step should also works other .rpm based distros (Fedora, Mandriva ...).*
 
-```.bash
-$ sudo yum install git python-devel wget
-```
+    $ sudo yum install git python-devel wget
 
 <a name="packages-based-installation"></a>
 
-Packages based installation
+<br>
+Packages based installation  [&#x25B2;](#top-page)
 =======================
 
 Currently, only dependencies can be installed using packages.
 
 This is why everyone needs git to obtain obm-deploy sources.
 
+<a name="packages-installation-on-debian-gnulinux-wheezy"></a>
+
 Packages installation on Debian GNU/Linux Wheezy
 ---------------------------------------------------------------------
+
+<a name="enable-wheezy-backports"></a>
 
 ### Enable Wheezy Backports
 
 *This step is not needed on other .deb based distros (Ubuntu, Mint ...).*
 
-```.bash
-$ sudo su -c "echo 'deb http://http.debian.net/debian wheezy-backports main' >> /etc/apt/sources.list"
-```
+    $ sudo su -c "echo 'deb http://http.debian.net/debian wheezy-backports main' >> /etc/apt/sources.list"
+
+<a name="install-packages"></a>
 
 ### Install packages
 
 *This step should also works on other .deb based distros (Ubuntu, Mint ...).*
 
-```.bash
-$ sudo aptitude install ansible
-```
+    $ sudo aptitude install ansible
+
+<a name="packages-installation-on-centos-linux-6"></a>
 
 Packages installation on CentOS Linux 6
 -----------------------------------------------------
+
+<a name="enable-epel-repository"></a>
 
 ### Enable EPEL repository
 
@@ -120,208 +125,223 @@ Packages installation on CentOS Linux 6
     $ wget http://dl.fedoraproject.org/pub/epel/6/`uname -m`/epel-release-6.8.noarch.rpm
     $ sudo rpm -Uvh epel-release-6.8.noarch.rpm
 
+<a name="install-packages-1"></a>
 
 ### Install packages
 
 *This step should also works on other .rpm based distros (Fedora, Mandriva ...).*
 
-```.bash
-$ sudo yum install ansible
-```
+    $ sudo yum install ansible
 
-Common prerequisites for manual methods
+<a name="common-prerequisites-for-manual-methods"></a>
+
+<br>
+Common prerequisites for manual methods  [&#x25B2;](#top-page)
 ====================================
+
+<a name="install-prerequisites-on-debian-gnulinux-wheezy"></a>
 
 Install prerequisites on Debian GNU/Linux Wheezy
 --------------------------------------------------------------------
+
+<a name="enable-wheezy-backports-1"></a>
 
 ### Enable Wheezy Backports
 
 *This step is not needed on other .deb based distros (Ubuntu, Mint ...).*
 
-```.bash
-$ sudo su -c "echo 'deb http://http.debian.net/debian wheezy-backports main' >> /etc/apt/sources.list"
-```
+    $ sudo su -c "echo 'deb http://http.debian.net/debian wheezy-backports main' >> /etc/apt/sources.list"
+
+<a name="install-packages-2"></a>
 
 ### Install packages
 
 *This step should also works on .deb based distros (Debian, Mint ...).*
 
-```.bash
-$ sudo aptitude install python-virtualenv python-pip
-```
+    $ sudo aptitude install python-virtualenv python-pip
+
+<a name="install-prerequisites-on-centos-linux-6"></a>
 
 Install prerequisites on CentOS Linux 6
 ----------------------------------------------------
+
+<a name="enable-epel-repository-1"></a>
 
 ### Enable EPEL repository
 
 *This step is not needed on other .rpm based distros (Fedora, Mandriva ...).*
 
-```.bash
-$ sudo yum install wget
-$ wget http://dl.fedoraproject.org/pub/epel/6/`uname -m`/epel-release-6.8.noarch.rpm
-$ sudo rpm -Uvh epel-release-6.8.noarch.rpm
-```
+    $ sudo yum install wget
+    $ wget http://dl.fedoraproject.org/pub/epel/6/`uname -m`/epel-release-6.8.noarch.rpm
+    $ sudo rpm -Uvh epel-release-6.8.noarch.rpm
+
+<a name="install-packages-3"></a>
 
 ### Install packages
 
 *This step should also works on other .rpm based distros (Fedora, Mandriva ...).*
 
-```.bash
-$ sudo yum install python-virtualenv python-pip
-```
+    $ sudo yum install python-virtualenv python-pip
 
-Manual installation using PIP and virtualenv
+<a name="manual-installation-using-pip-and-virtualenv"></a>
+
+<br>
+Manual installation using PIP and virtualenv  [&#x25B2;](#top-page)
 =====================================
+
+<a name="clone-obm-deploy-git-repository"></a>
 
 Clone OBM-Deploy GIT repository
 --------------------------------------------
 
-```.bash
-$ git clone https://github.com/linagora/obm-deploy
-```
+    $ git clone https://github.com/linagora/obm-deploy
+
+<a name="create-a-python-virtualenv-in-obm-deploy-directory"></a>
 
 Create a Python virtualenv in obm-deploy directory
 --------------------------------------------------------------------
 
-```.bash
-$ cd obm-deploy
-$ virtualenv --no-site-packages obm-deploy-env
-```
+    $ cd obm-deploy
+    $ virtualenv --no-site-packages obm-deploy-env
+
+<a name="activate-your-virtualenv"></a>
 
 Activate your virtualenv
 --------------------------------
 
-```.bash
-$ source obm-deploy-env/bin/activate
-```
+    $ source obm-deploy-env/bin/activate
+
+<a name="install-dependencies-into-your-virtualenv"></a>
 
 Install dependencies into your virtualenv
 -------------------------------------------------------
 
-```.bash
-$ pip install paramiko PyYAML jinja2 pyasn1 pycrypto python-keyczar==0.71b
-```
+    $ pip install paramiko PyYAML jinja2 pyasn1 pycrypto python-keyczar==0.71b
+
+<a name="clone-ansible-git-repository"></a>
 
 Clone Ansible GIT repository
 --------------------------------------
 
-```.bash
-$ git clone https://github.com/ansible/ansible -b release1.7.2
-```
+    $ git clone https://github.com/ansible/ansible -b release1.7.2
+
+<a name="activate-ansible-environment"></a>
 
 Activate Ansible environment
 ----------------------------------------
 
-```.bash
-$ source ansible/hacking/env-setup
-```
+    $ source ansible/hacking/env-setup
+
+<a name="exit-from-your-virtualenv"></a>
 
 Exit from your virtualenv
 ---------------------------------
 
-```.bash
-$ deactivate
-```
+    $ deactivate
+
+  <a name="each-time-you-want-to-work-with-obm-deploy"></a>
 
 Each time you want to work with OBM-Deploy
 -------------------------------------------------------------
 
-```.bash
-$ cd obm-deploy
-$ source obm-deploy-env/bin/activate
-$ source ansible/hacking/env-setup
-```
+    $ cd obm-deploy
+    $ source obm-deploy-env/bin/activate
+    $ source ansible/hacking/env-setup
 
-Manual installation using virtualenvwrapper (recommended)
+<a name="manual-installation-using-virtualenvwrapper-recommended"></a>
+
+<br>
+Manual installation using virtualenvwrapper (recommended)  [&#x25B2;](#top-page)
 ==================================================
+
+<a name="install-virtualenvwrapper-on-debian-gnulinux-wheezy"></a>
 
 Install virtualenvwrapper on Debian GNU/Linux Wheezy
 ---------------------------------------------------------------------------
 
 *This step should also works on other .deb based distros (Ubuntu, Mint ...).*
 
-```.bash
-$ sudo aptitude install virtualenvwrapper
-```
+
+    $ sudo aptitude install virtualenvwrapper
+
+<a name="install-virtualenvwrapper-on-centos-linux-6"></a>
 
 Install virtualenvwrapper on CentOS Linux 6
 -------------------------------------------------------------
 
 *This step should also works on other .rpm based distros (Fedora, Mandriva ...).*
 
-```.bash
-$ yum install python-virtualenvwrapper
-```
+
+    $ yum install python-virtualenvwrapper
+
+<a name="clone-obm-deploy-git-repository-1"></a>
 
 Clone OBM-Deploy GIT repository
 ---------------------------------------------
 
-```.bash
-$ git clone https://github.com/linagora/obm-deploy
-```
+
+    $ git clone https://github.com/linagora/obm-deploy
+
+<a name="create-a-python-virtualenv-in-obm-deploy-directory-1"></a>
 
 Create a Python virtualenv in obm-deploy directory
 --------------------------------------------------------------------
 
-```.bash
-$ cd obm-deploy
-$ mkvirtualenv -p /usr/bin/python2 --no-site-packages obm-deploy-env
-```
+    $ cd obm-deploy
+    $ mkvirtualenv -p /usr/bin/python2 --no-site-packages obm-deploy-env
+
+<a name="activate-your-virtualenv-1"></a>
 
 Activate your virtualenv
 --------------------------------
 
-```.bash
-$ workon obm-deploy-env
-```
+    $ workon obm-deploy-env
+
+<a name="install-dependencies-into-your-virtualenv-1"></a>
 
 Install dependencies into your virtualenv
 -------------------------------------------------------
 
-```.bash
-$ pip install paramiko PyYAML jinja2 pyasn1 pycrypto python-keyczar==0.71b
-```
+    $ pip install paramiko PyYAML jinja2 pyasn1 pycrypto python-keyczar==0.71b
+
+<a name="clone-ansible-git-repository-1"></a>
 
 Clone Ansible GIT repository
 --------------------------------------
 
-```.bash
-$ git clone https://github.com/ansible/ansible -b release1.7.2
-```
+    $ git clone https://github.com/ansible/ansible -b release1.7.2
+
+<a name="activate-ansible-environment-1"></a>
 
 Activate Ansible environment
 ----------------------------------------
 
-```.bash
-$ source ansible/hacking/env-setup
-```
+
+    $ source ansible/hacking/env-setup
+
+
+<a name="activate-ansible-auto-setup-in-your-virtualenv"></a>
 
 Activate Ansible auto-setup in your virtualenv
 -------------------------------------------------------------
 
-```.bash
-$ cat > ~/.virtualenvs/obm-deploy-env/bin/postactivate << EOF
-#!/bin/bash
-cd $(pwd)
-source ansible/hacking/env-setup
-EOF
-$ chmod +x ~/.virtualenvs/obm-deploy-env/bin/postactivate
-```
+    $ cat > ~/.virtualenvs/obm-deploy-env/bin/postactivate << EOF
+    #!/bin/bash
+    cd $(pwd)
+    source ansible/hacking/env-setup
+    EOF
+    $ chmod +x ~/.virtualenvs/obm-deploy-env/bin/postactivate
+
+<a name="exit-from-your-virtualenv-1"></a>
 
 Exit from your virtualenv
 ---------------------------------
 
-```.bash
-$ deactivate
-```
+    $ deactivate
+
+<a name="each-time-you-want-to-work-with-obm-deploy-1"></a>
 
 Each time you want to work with OBM-Deploy
 -------------------------------------------------------------
 
-```.bash
-$ workon obm-deploy-env
-```
-
-[Oliver Welge's article]: http://weluse.de/blog/installing-ansible-on-os-x.html "Oliver Welge's article about Ansible installation"
+    $ workon obm-deploy-env
