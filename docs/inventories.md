@@ -146,7 +146,7 @@ Focus on groups
 
 Some of the second part groups must contain only one host but in other, you can put more of them.
 
-To see a detailed list of all roles and their corresponding groups, please refer to [roles reference](../roles.md "Roles reference").
+To see a detailed list of all roles and their corresponding groups, please refer to [roles reference](./roles.md "Roles reference").
 
 <a name="advanced-example"></a>
 
