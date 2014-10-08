@@ -18,8 +18,12 @@ Also, regarding to the installation method you use, your virtualhost must be act
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
+<a name="prerequisites"></a>
+
 Prerequisites
 ===========
+
+<a name="root-access"></a>
 
 Root access
 ---------------
@@ -30,12 +34,16 @@ This is a prerequisite but we will try to allow remove this need in the future.
 
 So, ensure that you can connect to your remote hosts as root before trying to run OBM-Deploy.
 
+<a name="host-names-resolving"></a>
+
 Host names resolving
 ----------------------------
 
 Another constraint is that OBM-Deploy needs to be able to resolve host names.
 
 So, you need to add all your remote hosts with their IP addresses in your /etc/hosts file or add them in your DNS server.
+
+<a name="ssh-connection-without-a-key-pair"></a>
 
 SSH connection without a key pair
 ----------------------------------------------
@@ -46,16 +54,15 @@ It is also possible to authenticate using a password but you need to do two thin
 
  - Add this option in ansible.cfg :
 
-```.bash
-ask_pass = True
-```
+    ask_pass = True
+
 
  - Add this configuration in /home/*your_username*/.ssh/config file :
 
-```.bash
-Host your_remote_host
-    PubkeyAuthentication no
-```
+    Host your_remote_host
+      PubkeyAuthentication no
+
+<a name="sudo-usage"></a>
 
 Sudo usage
 ---------------
@@ -64,8 +71,12 @@ Sudo usage has been disabled in obm-deploy for the moment.
 
 We will probably reintroduce it in the future.
 
+<a name="obm-deploy-usage"></a>
+
 OBM-Deploy usage
 ================
+
+<a name="installing-an-obm-full-all-services-on-the-same-host"></a>
 
 Installing an obm-full (all services on the same host)
 ----------------------------------------------------------------------
@@ -76,6 +87,4 @@ The only thing you need to do is to replace obm.example.com with your hostname i
 
 Then, you can make your first automated deployment :
 
-```.bash
-$ ansible-playbook -i obmfull-example obm.yml
-```
+    $ ansible-playbook -i obmfull-example obm.yml
