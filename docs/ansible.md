@@ -1,4 +1,3 @@
-
 Ansible is a tool to automate tasks execution on remote hosts.
 
 #### Table of contents
@@ -21,81 +20,83 @@ Ansible is a tool to automate tasks execution on remote hosts.
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
+<a name="ansible-documentation"></a>
+
 Ansible documentation
 ===================
+
+<a name="yaml-syntax"></a>
 
 YAML Syntax
 ----------------
 
-[YAML syntax] is used everywhere in Ansible.
+[YAML syntax](http://docs.ansible.com/YAMLSyntax.html "YAML syntax on docs.ansible.com") is used everywhere in Ansible.
+
+<a name="jinja2-templates"></a>
 
 Jinja2 Templates
 ---------------------
 
-[Jinja2 engine] is used for templating.
+[Jinja2 engine](http://docs.ansible.com/playbooks_variables.html "Jinja2 engine on docs.ansible.com") is used for templating.
+
+<a name="official-documentation"></a>
 
 Official documentation
 -----------------------------
 
-[Ansible official documentation] is a good place to start.
+[Ansible official documentation]( http://docs.ansible.com "Ansible official documentation on docs.ansible.com") is a good place to start.
+
+<a name="ansible-terminology"></a>
 
 Ansible terminology
 =================
 
+<a name="inventory"></a>
+
 Inventory
 ------------
 
-An [inventory] defines all your hosts and groups.
+An [inventory](http://docs.ansible.com/intro_inventory.html "Inventory on docs.ansible.com") defines all your hosts and groups.
+
+<a name="module"></a>
 
 Module
 ---------
 
-A [module] abstracts an action to run on remote hosts like file copy or package installation.
-Here is a list of [available modules].
+A [module](http://docs.ansible.com/modules.html "Modules on docs.ansible.com") abstracts an action to run on remote hosts like file copy or package installation.
+Here is a list of [available modules](http://docs.ansible.com/modules_by_category.html "Available modules on docs.ansible.com").
+
+<a name="task"></a>
 
 Task
 -----
 
-A [task] uses an Ansible [module] to define an atomic action to run on remote hosts.
+A [task](http://docs.ansible.com/glossary.html#tasks "task") uses an Ansible [module](http://docs.ansible.com/modules.html "Modules on docs.ansible.com") to define an atomic action to run on remote hosts.
+
+<a name="role"></a>
 
 Role
 -----
 
-A [role] regroups a set of related tasks.
+A [role](http://docs.ansible.com/playbook_rtoles.html "Role on docs.ansible.com") regroups a set of related tasks.
+
+<a name="playbook"></a>
 
 Playbook
 ------------
 
-A [playbook] associates hosts or groups of hosts to corresponding roles.
+A [playbook](http://docs.ansible.com/playbooks.html "Playbook on docs.ansible.com") associates hosts or groups of hosts to corresponding roles.
+
+<a name="handler"></a>
 
 Handler
 ----------
 
-An  [handler] is a special task within a role not run directly but triggered by other tasks.
+An  [handler](http://docs.ansible.com/glossary.html#handlers "Handler on docs.ansible.com") is a special task within a role not run directly but triggered by other tasks.
+
+<a name="variable"></a>
 
 Variable
 ----------
 
-Do I really need to define what is a [variable] ?
-
-[YAML syntax]: http://docs.ansible.com/YAMLSyntax.html "YAML syntax on docs.ansible.com"
-
-[Jinja2 engine]: http://docs.ansible.com/playbooks_variables.html "Jinja2 engine on docs.ansible.com"
-
-[Ansible official documentation]: http://docs.ansible.com "Ansible official documentation on docs.ansible.com"
-
-[inventory]: http://docs.ansible.com/intro_inventory.html "Inventory on docs.ansible.com"
-
-[module]: http://docs.ansible.com/modules.html "Modules on docs.ansible.com"
-
-[available modules]: http://docs.ansible.com/modules_by_category.html "Available modules on docs.ansible.com"
-
-[task]: http://docs.ansible.com/glossary.html#tasks
-
-[role]: http://docs.ansible.com/playbook_rtoles.html "Role on docs.ansible.com"
-
-[playbook]: http://docs.ansible.com/playbooks.html "Playbook on docs.ansible.com"
-
-[handler]: http://docs.ansible.com/glossary.html#handlers "Handler on docs.ansible.com"
-
-[variable]: http://docs.ansible.com/playbook_variables.html "Variable on docs.ansible.com"
+Do I really need to define what is a [variable](http://docs.ansible.com/playbook_variables.html "Variable on docs.ansible.com") ?
