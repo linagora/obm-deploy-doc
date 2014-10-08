@@ -55,7 +55,7 @@ We recommend you to choose a manual installation strategy even if this is a litt
 <a name="common-packages-for-all-methods"></a>
 
 <br>
-Common packages for all methods [&#x25B2;](#top-page)
+Common packages for all methods [&#x25B2;](#top-page "back to top")
 ============================
 
 First of all, you need to install git.
@@ -81,7 +81,7 @@ Install common packages on CentOS Linux 6
 <a name="packages-based-installation"></a>
 
 <br>
-Packages based installation  [&#x25B2;](#top-page)
+Packages based installation  [&#x25B2;](#top-page "back to top")
 =======================
 
 Currently, only dependencies can be installed using packages.
@@ -136,7 +136,7 @@ Packages installation on CentOS Linux 6
 <a name="common-prerequisites-for-manual-methods"></a>
 
 <br>
-Common prerequisites for manual methods  [&#x25B2;](#top-page)
+Common prerequisites for manual methods  [&#x25B2;](#top-page "back to top")
 ====================================
 
 <a name="install-prerequisites-on-debian-gnulinux-wheezy"></a>
@@ -186,7 +186,7 @@ Install prerequisites on CentOS Linux 6
 <a name="manual-installation-using-pip-and-virtualenv"></a>
 
 <br>
-Manual installation using PIP and virtualenv  [&#x25B2;](#top-page)
+Manual installation using PIP and virtualenv  [&#x25B2;](#top-page "back to top")
 =====================================
 
 <a name="clone-obm-deploy-git-repository"></a>
@@ -251,7 +251,7 @@ Each time you want to work with OBM-Deploy
 <a name="manual-installation-using-virtualenvwrapper-recommended"></a>
 
 <br>
-Manual installation using virtualenvwrapper (recommended)  [&#x25B2;](#top-page)
+Manual installation using virtualenvwrapper (recommended)  [&#x25B2;](#top-page "back to top")
 ==================================================
 
 <a name="install-virtualenvwrapper-on-debian-gnulinux-wheezy"></a>
@@ -345,3 +345,6 @@ Each time you want to work with OBM-Deploy
 -------------------------------------------------------------
 
     $ workon obm-deploy-env
+
+
+[&#x25B2;](#top-page "back to top")
