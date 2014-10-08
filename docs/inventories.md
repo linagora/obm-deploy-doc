@@ -1,7 +1,7 @@
 
 Inventory file allows you to describe your OBM infrastructure.
 
-For more informations about inventory files, please refer to [Ansible's dedicated documentation].
+For more informations about inventory files, please refer to [Ansible's dedicated documentation](http://docs.ansible.com/intro_inventory.html "Inventory on docs.ansible.com").
 
 #### Table of contents
 
@@ -19,39 +19,43 @@ For more informations about inventory files, please refer to [Ansible's dedicate
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
+<a name="obmfull-example-inventory-file"></a>
+
 obmfull-example inventory file
 ==========================
 
 This inventory is provided has an example of how to deploy OBM on a single host.
+
+<a name="quick-introduction"></a>
 
 Quick introduction
 -------------------------
 
 Let's take a look at the first part of the file :
 
-```.bash
-#
-# OBM-Full example inventory file
-#
+    #
+    # OBM-Full example inventory file
+    #
 
-[obmfullservers]
-obm.example.com
+    [obmfullservers]
+    obm.example.com
 
-[directoryservers]
-[certservers]
-[nosqlservers]
-[dbservers]
-[webservers]
-[javaservers]
-[cyrusmupdateservers]
-[cyrusbackservers]
-[cyrusfrontservers]
-[smtpservers]
-```
+    [directoryservers]
+    [certservers]
+    [nosqlservers]
+    [dbservers]
+    [webservers]
+    [javaservers]
+    [cyrusmupdateservers]
+    [cyrusbackservers]
+    [cyrusfrontservers]
+    [smtpservers]
 
-Has you probably know if you've read [Ansible's dedicated documentation], inventory files are a kind of INI files where you can find groups between brackets and hosts.
+Has you probably know if you've read [Ansible's dedicated documentation](http://docs.ansible.com/intro_inventory.html "Inventory on docs.ansible.com"), inventory files are a kind of INI files where you can find groups between brackets and hosts.
 
 This example inventory allows you to deploy a single OBM hosts supporting all services by simply replacing obm.example.com by your own hostname in obmfull group.
+
+<a name="first-steps-of-customization"></a>
 
 First steps of customization
 -------------------------------------
@@ -62,41 +66,39 @@ You can use them to split your deployment into more than one remote host.
 
 For example, you can store your database on a separated server as below :
 
-```.bash
-#
-# Customized example inventory file with separated database server
-#
+    #
+    # Customized example inventory file with separated database server
+    #
 
-[obmfullservers]
+    [obmfullservers]
 
-[directoryservers]
-obm.example.com
+    [directoryservers]
+    obm.example.com
 
-[certservers]
-obm.example.com
+    [certservers]
+    obm.example.com
 
-[nosqlservers]
-obm.example.com
+    [nosqlservers]
+    obm.example.com
 
-[dbservers]
-database.example.com
+    [dbservers]
+    database.example.com
 
-[webservers]
-obm.example.com
+    [webservers]
+    obm.example.com
 
-[javaservers]
-obm.example.com
+    [javaservers]
+    obm.example.com
 
-[cyrusmupdateservers]
+    [cyrusmupdateservers]
 
-[cyrusbackservers]
-obm.example.com
+    [cyrusbackservers]
+    obm.example.com
 
-[cyrusfrontservers]
+    [cyrusfrontservers]
 
-[smtpservers]
-obm.example.com
-```
+    [smtpservers]
+    obm.example.com
 
 That's all. Pay attention to not update the second part of file. It will be explained later.
 
@@ -104,14 +106,16 @@ That's all. Pay attention to not update the second part of file. It will be expl
 
 You can now launch your deployment as usual :
 
-```.bash
-$ ansible-playbook -i customized-example obm.yml
-```
+    $ ansible-playbook -i customized-example obm.yml
+
+<a name="more-advanced-customization"></a>
 
 More advanced customization
 =========================
 
 While the first part of the file is provided to simplify your life, the second part is where the magic happens.
+
+<a name="nested-groups"></a>
 
 Nested groups
 -------------------
@@ -124,6 +128,8 @@ In the obmfull-example inventory file, they are composed of nested groups from t
 
 A `parent` group is identified by the `:children` suffix after its name.
 
+<a name="ansible-limitation-in-nested-groups"></a>
+
 Ansible limitation in nested groups
 -----------------------------------------------
 
@@ -133,72 +139,70 @@ Indeed, a group can't contain other groups and hosts.
 
 To deploy a fine tuned distributed OBM infrastructure you'll need to rewrite the second part putting host names in all the groups.
 
+<a name="focus-on-groups"></a>
+
 Focus on groups
 ----------------------
 
 Some of the second part groups must contain only one host but in other, you can put more of them.
 
-To see a detailed list of all roles and their corresponding groups, please refer to [roles reference].
+To see a detailed list of all roles and their corresponding groups, please refer to [roles reference](../roles.md "Roles reference").
+
+<a name="advanced-example"></a>
 
 Advanced example
 -------------------------
 
 Here is a common example of distributed installation for large deployments :
 
-```.bash
-# Distributed inventory example
+    # Distributed inventory example
 
-[caservers]
-ldap.example.com
+    [caservers]
+    ldap.example.com
 
-[autoconfservers]
-java.example.com
+    [autoconfservers]
+    java.example.com
 
-[databaseservers]
-db.example.com
+    [databaseservers]
+    db.example.com
 
-[ldapservers:children]
-ldap.example.com
+    [ldapservers:children]
+    ldap.example.com
 
-[uiservers]
-obm-ui.example.com
+    [uiservers]
+    obm-ui.example.com
 
-[webmailservers]
-obm-ui.example.com
+    [webmailservers]
+    obm-ui.example.com
 
-[syncservers]
-obm-sync.example.com
+    [syncservers]
+    obm-sync.example.com
 
-[solrservers]
-java.example.com
+    [solrservers]
+    java.example.com
 
-[cassandraservers]
-cassandra1.example.com
-cassandra2.example.com
-cassandra3.example.com
+    [cassandraservers]
+    cassandra1.example.com
+    cassandra2.example.com
+    cassandra3.example.com
 
-[opushservers]
-opush.example.com
+    [opushservers]
+    opush.example.com
 
-[spushnikservers]
-java.example.com
+    [spushnikservers]
+    java.example.com
 
-[cyrusmurderservers]
-cyrus-murder.example.com
+    [cyrusmurderservers]
+    cyrus-murder.example.com
 
-[cyrusfrontendservers]
-cyrus-front1.example.com
-cyrus-front2.example.com
+    [cyrusfrontendservers]
+    cyrus-front1.example.com
+    cyrus-front2.example.com
 
-[cyrusbackendservers]
-cyrus-back1.example.com
-cyrus-back2.example.com
+    [cyrusbackendservers]
+    cyrus-back1.example.com
+    cyrus-back2.example.com
 
-[postfixservers]
-smtp1.example.com
-smtp2.example.com
-```
-
-[Ansible's dedicated documentation]: http://docs.ansible.com/intro_inventory.html "Inventory on docs.ansible.com"
-
-[roles reference]: ../roles.md "Roles reference"
+    [postfixservers]
+    smtp1.example.com
+    smtp2.example.com
