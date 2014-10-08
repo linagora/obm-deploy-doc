@@ -51,10 +51,14 @@ We recommend you to choose a manual installation strategy even if this is a litt
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
+<a name="common-packages-for-all-methods"></a>
+
 Common packages for all methods
 ============================
 
 First of all, you need to install git.
+
+<a name="install-common-packages-on-debian-gnulinux-wheezy"></a>
 
 Install common packages on Debian GNU/Linux Wheezy
 ---------------------------------------------------------------------------
@@ -65,6 +69,8 @@ Install common packages on Debian GNU/Linux Wheezy
 $ sudo aptitude install git python-dev wget
 ```
 
+<a name="install-common-packages-on-centos-linux-6"></a>
+
 Install common packages on CentOS Linux 6
 -----------------------------------------------------------
 
@@ -73,6 +79,8 @@ Install common packages on CentOS Linux 6
 ```.bash
 $ sudo yum install git python-devel wget
 ```
+
+<a name="packages-based-installation"></a>
 
 Packages based installation
 =======================
@@ -107,11 +115,11 @@ Packages installation on CentOS Linux 6
 
 *This step is not needed on other .rpm based distros (Fedora, Mandriva ...).*
 
-```.bash
-$ sudo yum install wget
-$ wget http://dl.fedoraproject.org/pub/epel/6/`uname -m`/epel-release-6.8.noarch.rpm
-$ sudo rpm -Uvh epel-release-6.8.noarch.rpm
-```
+
+    $ sudo yum install wget
+    $ wget http://dl.fedoraproject.org/pub/epel/6/`uname -m`/epel-release-6.8.noarch.rpm
+    $ sudo rpm -Uvh epel-release-6.8.noarch.rpm
+
 
 ### Install packages
 
