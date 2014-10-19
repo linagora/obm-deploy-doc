@@ -42,7 +42,6 @@ We recommend you to choose a manual installation strategy even if this is a litt
   - [Install virtualenvwrapper on CentOS Linux 6](#install-virtualenvwrapper-on-centos-linux-6)
   - [Clone OBM-Deploy GIT repository](#clone-obm-deploy-git-repository-1)
   - [Create a Python virtualenv in obm-deploy directory](#create-a-python-virtualenv-in-obm-deploy-directory-1)
-  - [Activate your virtualenv](#activate-your-virtualenv-1)
   - [Install dependencies into your virtualenv](#install-dependencies-into-your-virtualenv-1)
   - [Clone Ansible GIT repository](#clone-ansible-git-repository-1)
   - [Activate Ansible environment](#activate-ansible-environment-1)
@@ -289,13 +288,6 @@ Create a Python virtualenv in obm-deploy directory
 
     $ cd obm-deploy
     $ mkvirtualenv -p /usr/bin/python2 --no-site-packages obm-deploy-env
-
-<a name="activate-your-virtualenv-1"></a>
-
-Activate your virtualenv
---------------------------------
-
-    $ workon obm-deploy-env
 
 <a name="install-dependencies-into-your-virtualenv-1"></a>
 
