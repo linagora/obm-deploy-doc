@@ -53,7 +53,7 @@ We recommend you to choose a manual installation strategy even if this is a litt
 
 <a name="common-packages-for-all-methods"></a>
 
-<br>
+<br />
 Common packages for all methods [&#x25B2;](#top-page "back to top")
 ============================
 
@@ -79,7 +79,7 @@ Install common packages on CentOS Linux 6
 
 <a name="packages-based-installation"></a>
 
-<br>
+<br />
 Package-based installation  [&#x25B2;](#top-page "back to top")
 =======================
 
@@ -134,7 +134,7 @@ Packages installation on CentOS Linux 6
 
 <a name="common-prerequisites-for-manual-methods"></a>
 
-<br>
+<br />
 Common prerequisites for manual methods  [&#x25B2;](#top-page "back to top")
 ====================================
 
@@ -184,7 +184,7 @@ Install prerequisites on CentOS Linux 6
 
 <a name="manual-installation-using-pip-and-virtualenv"></a>
 
-<br>
+<br />
 Manual installation using PIP and virtualenv  [&#x25B2;](#top-page "back to top")
 =====================================
 
@@ -249,7 +249,7 @@ Each time you want to work with OBM-Deploy
 
 <a name="manual-installation-using-virtualenvwrapper-recommended"></a>
 
-<br>
+<br />
 Manual installation using virtualenvwrapper (recommended)  [&#x25B2;](#top-page "back to top")
 ==================================================
 

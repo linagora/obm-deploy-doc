@@ -18,7 +18,7 @@ You can contribute to this project in many ways.
 
 <a name="declaring-an-issue"></a>
 
-<br>
+<br />
 Declaring an issue  [&#x25B2;](#top-page "back to top")
 ==================
 
@@ -45,7 +45,7 @@ What to include in your issue :
 
 <a name="providing-a-patch-or-a-new-feature"></a>
 
-<br>
+<br />
 Providing a patch or a new feature  [&#x25B2;](#top-page "back to top")
 ==================================
 
@@ -63,7 +63,7 @@ Before proposing a pull request
 
 <a name="development-rules"></a>
 
-<br>
+<br />
 Development rules  [&#x25B2;](#top-page "back to top")
 =================
 

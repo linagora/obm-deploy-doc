@@ -16,7 +16,7 @@ To learn more about Ansible variables precedence, please refer to the [dedicated
 
 <a name="global-configuration"></a>
 
-<br>
+<br />
 Global configuration
 =================
 
@@ -28,7 +28,7 @@ Variables in this file are used by all hosts unless you override them using grou
 
 <a name="specific-configuration"></a>
 
-<br>
+<br />
 Specific configuration
 ==================
 

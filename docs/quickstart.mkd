@@ -21,7 +21,7 @@ Also, whatever installation method you use, your virtualhost must be activated.
 
 <a name="prerequisites"></a>
 
-<br>
+<br />
 Prerequisites  [&#x25B2;](#top-page "back to top")
 ===========
 
@@ -75,7 +75,7 @@ We will probably reintroduce it in the future.
 
 <a name="obm-deploy-usage"></a>
 
-<br>
+<br />
 OBM-Deploy usage  [&#x25B2;](#top-page "back to top")
 ================
 

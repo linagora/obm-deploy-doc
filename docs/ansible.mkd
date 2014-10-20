@@ -24,7 +24,7 @@ Ansible is a tool to automate tasks execution on remote hosts.
 
 <a name="ansible-documentation"></a>
 
-<br>
+<br />
 Ansible documentation  [&#x25B2;](#top-page "back to top")
 ===================
 
@@ -51,7 +51,7 @@ Official documentation
 
 <a name="ansible-terminology"></a>
 
-<br>
+<br />
 Ansible terminology  [&#x25B2;](#top-page "back to top")
 =================
 

@@ -15,7 +15,7 @@ Here are our main goals for next releases.
 
 <a name="short-term-objectives"></a>
 
-<br>
+<br />
 Short-term objectives  [&#x25B2;](#top-page "back to top")
 =====================
 
@@ -28,7 +28,7 @@ Objectives for next release.
 
 <a name="medium-term-objectives"></a>
 
-<br>
+<br />
 Medium-term objectives  [&#x25B2;](#top-page "back to top")
 ======================
 
@@ -44,7 +44,7 @@ Objectives for next weeks.
 
 <a name="long-term-objectives"></a>
 
-<br>
+<br />
 Long-term objectives  [&#x25B2;](#top-page "back to top")
 ====================
 
