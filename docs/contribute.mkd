@@ -26,8 +26,8 @@ Your can declare issues using our [official bugtracker].
 
 <a name="before-declaring-an-issue"></a>
 
-Before declaring an issue :
----------------------------
+Before declaring an issue
+-------------------------
 
  * Ensure you (we) can easily reproduce your issue using simple steps
  * Check your installation using our [installation procedure]
@@ -36,8 +36,8 @@ Before declaring an issue :
 
 <a name="what-to-include-in-your-issue"></a>
 
-What to include in your issue :
--------------------------------
+What to include in your issue
+-----------------------------
 
  * Inventory file used
  * Config.yml and customized content in group_vars or host_vars

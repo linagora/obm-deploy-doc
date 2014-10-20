@@ -55,14 +55,14 @@ We recommend you to choose a manual installation strategy even if this is a litt
 
 <br />
 Common packages for all methods [&#x25B2;](#top-page "back to top")
-============================
+===============================
 
 First of all, you need to install git.
 
 <a name="install-common-packages-on-debian-gnulinux-wheezy"></a>
 
 Install common packages on Debian GNU/Linux Wheezy
----------------------------------------------------------------------------
+--------------------------------------------------
 
 *This step should also work on other .deb based distros (Ubuntu, Mint ...).*
 
@@ -71,7 +71,7 @@ Install common packages on Debian GNU/Linux Wheezy
 <a name="install-common-packages-on-centos-linux-6"></a>
 
 Install common packages on CentOS Linux 6
------------------------------------------------------------
+-----------------------------------------
 
 *This step should also work other .rpm based distros (Fedora, Mandriva ...).*
 
@@ -81,7 +81,7 @@ Install common packages on CentOS Linux 6
 
 <br />
 Package-based installation  [&#x25B2;](#top-page "back to top")
-=======================
+==========================
 
 Unfortunately, obm-deploy is not packaged yet.
 
@@ -90,7 +90,7 @@ It is necessary to obtain it via Git.
 <a name="package-installation-on-debian-gnulinux-wheezy"></a>
 
 Package installation on Debian GNU/Linux Wheezy
----------------------------------------------------------------------
+-----------------------------------------------
 
 <a name="enable-wheezy-backports"></a>
 
@@ -111,7 +111,7 @@ Package installation on Debian GNU/Linux Wheezy
 <a name="package-installation-on-centos-linux-6"></a>
 
 Packages installation on CentOS Linux 6
------------------------------------------------------
+---------------------------------------
 
 <a name="enable-epel-repository"></a>
 
@@ -136,12 +136,12 @@ Packages installation on CentOS Linux 6
 
 <br />
 Common prerequisites for manual methods  [&#x25B2;](#top-page "back to top")
-====================================
+=======================================
 
 <a name="install-prerequisites-on-debian-gnulinux-wheezy"></a>
 
 Install prerequisites on Debian GNU/Linux Wheezy
---------------------------------------------------------------------
+------------------------------------------------
 
 <a name="enable-wheezy-backports-1"></a>
 
@@ -162,7 +162,7 @@ Install prerequisites on Debian GNU/Linux Wheezy
 <a name="install-prerequisites-on-centos-linux-6"></a>
 
 Install prerequisites on CentOS Linux 6
-----------------------------------------------------
+---------------------------------------
 
 <a name="enable-epel-repository-1"></a>
 
@@ -186,19 +186,19 @@ Install prerequisites on CentOS Linux 6
 
 <br />
 Manual installation using PIP and virtualenv  [&#x25B2;](#top-page "back to top")
-=====================================
+============================================
 
 <a name="clone-obm-deploy-git-repository"></a>
 
 Clone OBM-Deploy GIT repository
---------------------------------------------
+-------------------------------
 
     $ git clone https://github.com/linagora/obm-deploy
 
 <a name="create-a-python-virtualenv-in-obm-deploy-directory"></a>
 
 Create a Python virtualenv in obm-deploy directory
---------------------------------------------------------------------
+--------------------------------------------------
 
     $ cd obm-deploy
     $ virtualenv --no-site-packages obm-deploy-env
@@ -206,42 +206,42 @@ Create a Python virtualenv in obm-deploy directory
 <a name="activate-your-virtualenv"></a>
 
 Activate your virtualenv
---------------------------------
+------------------------
 
     $ source obm-deploy-env/bin/activate
 
 <a name="install-dependencies-into-your-virtualenv"></a>
 
 Install dependencies into your virtualenv
--------------------------------------------------------
+-----------------------------------------
 
     $ pip install paramiko PyYAML jinja2 pyasn1 pycrypto python-keyczar==0.71b
 
 <a name="clone-ansible-git-repository"></a>
 
 Clone Ansible GIT repository
---------------------------------------
+----------------------------
 
     $ git clone https://github.com/ansible/ansible -b release1.7.2
 
 <a name="activate-ansible-environment"></a>
 
 Activate Ansible environment
-----------------------------------------
+----------------------------
 
     $ source ansible/hacking/env-setup
 
 <a name="exit-from-your-virtualenv"></a>
 
 Exit from your virtualenv
----------------------------------
+-------------------------
 
     $ deactivate
 
   <a name="each-time-you-want-to-work-with-obm-deploy"></a>
 
 Each time you want to work with OBM-Deploy
--------------------------------------------------------------
+------------------------------------------
 
     $ cd obm-deploy
     $ source obm-deploy-env/bin/activate
@@ -251,12 +251,12 @@ Each time you want to work with OBM-Deploy
 
 <br />
 Manual installation using virtualenvwrapper (recommended)  [&#x25B2;](#top-page "back to top")
-==================================================
+=========================================================
 
 <a name="install-virtualenvwrapper-on-debian-gnulinux-wheezy"></a>
 
 Install virtualenvwrapper on Debian GNU/Linux Wheezy
----------------------------------------------------------------------------
+----------------------------------------------------
 
 *This step should also work on other .deb based distros (Ubuntu, Mint ...).*
 
@@ -266,7 +266,7 @@ Install virtualenvwrapper on Debian GNU/Linux Wheezy
 <a name="install-virtualenvwrapper-on-centos-linux-6"></a>
 
 Install virtualenvwrapper on CentOS Linux 6
--------------------------------------------------------------
+-------------------------------------------
 
 *This step should also work on other .rpm based distros (Fedora, Mandriva ...).*
 
@@ -276,7 +276,7 @@ Install virtualenvwrapper on CentOS Linux 6
 <a name="clone-obm-deploy-git-repository-1"></a>
 
 Clone OBM-Deploy GIT repository
----------------------------------------------
+-------------------------------
 
 
     $ git clone https://github.com/linagora/obm-deploy
@@ -284,7 +284,7 @@ Clone OBM-Deploy GIT repository
 <a name="create-a-python-virtualenv-in-obm-deploy-directory-1"></a>
 
 Create a Python virtualenv in obm-deploy directory
---------------------------------------------------------------------
+--------------------------------------------------
 
     $ cd obm-deploy
     $ mkvirtualenv -p /usr/bin/python2 --no-site-packages obm-deploy-env
@@ -292,21 +292,21 @@ Create a Python virtualenv in obm-deploy directory
 <a name="install-dependencies-into-your-virtualenv-1"></a>
 
 Install dependencies into your virtualenv
--------------------------------------------------------
+-----------------------------------------
 
     $ pip install paramiko PyYAML jinja2 pyasn1 pycrypto python-keyczar==0.71b
 
 <a name="clone-ansible-git-repository-1"></a>
 
 Clone Ansible GIT repository
---------------------------------------
+----------------------------
 
     $ git clone https://github.com/ansible/ansible -b release1.7.2
 
 <a name="activate-ansible-environment-1"></a>
 
 Activate Ansible environment
-----------------------------------------
+----------------------------
 
 
     $ source ansible/hacking/env-setup
@@ -315,7 +315,7 @@ Activate Ansible environment
 <a name="activate-ansible-auto-setup-in-your-virtualenv"></a>
 
 Activate Ansible auto-setup in your virtualenv
--------------------------------------------------------------
+----------------------------------------------
 
     $ cat > ~/.virtualenvs/obm-deploy-env/bin/postactivate << EOF
     #!/bin/bash
@@ -327,14 +327,14 @@ Activate Ansible auto-setup in your virtualenv
 <a name="exit-from-your-virtualenv-1"></a>
 
 Exit from your virtualenv
----------------------------------
+-------------------------
 
     $ deactivate
 
 <a name="each-time-you-want-to-work-with-obm-deploy-1"></a>
 
 Each time you want to work with OBM-Deploy
--------------------------------------------------------------
+------------------------------------------
 
     $ workon obm-deploy-env
 

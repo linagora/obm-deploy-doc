@@ -24,14 +24,14 @@ For more information about inventory files, please refer to [Ansible's dedicated
 
 <br />
 obmfull-example inventory file  [&#x25B2;](#top-page "back to top")
-==========================
+==============================
 
 This inventory is provided as an example of how to deploy OBM on a single host.
 
 <a name="quick-introduction"></a>
 
 Quick introduction
--------------------------
+------------------
 
 Let's take a look at the first part of the file :
 
@@ -60,7 +60,7 @@ This example inventory allows you to deploy a single OBM host supporting all ser
 <a name="first-customization-steps"></a>
 
 First customization steps
--------------------------------------
+-------------------------
 
 As you can see, there are other groups with no hosts in this part of the file.
 
@@ -114,14 +114,14 @@ You can now launch your deployment as usual :
 
 <br />
 More advanced customization  [&#x25B2;](#top-page "back to top")
-=========================
+===========================
 
 While the first part of the file is provided to simplify your life, the second part is where the magic happens.
 
 <a name="nested-groups"></a>
 
 Nested groups
--------------------
+-------------
 
 The groups in the second part are the most important ones. Only them are associated with roles
 
@@ -134,7 +134,7 @@ A `parent` group is identified by the `:children` suffix after its name.
 <a name="ansible-limitation-in-nested-groups"></a>
 
 Ansible limitation in nested groups
------------------------------------------------
+-----------------------------------
 
 The problem is you need to choose between groups of hosts or groups of groups.
 
@@ -145,7 +145,7 @@ To deploy a fine tuned distributed OBM infrastructure you'll need to rewrite the
 <a name="focus-on-groups"></a>
 
 Focus on groups
-----------------------
+---------------
 
 Some of the groups in the second part must contain only one host but in other, you can put more of them.
 
@@ -154,7 +154,7 @@ To see a detailed list of all roles and their corresponding groups, please refer
 <a name="advanced-example"></a>
 
 Advanced example
--------------------------
+----------------
 
 Here is a common example of distributed installation for large deployments :
 

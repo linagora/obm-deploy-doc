@@ -18,7 +18,7 @@ To learn more about Ansible variables precedence, please refer to the [dedicated
 
 <br />
 Global configuration
-=================
+====================
 
 Global configuration is done in config.yml.
 
@@ -30,7 +30,7 @@ Variables in this file are used by all hosts unless you override them using grou
 
 <br />
 Specific configuration
-==================
+======================
 
 Role specific default configuration, if applicable, is stored in roles/*role_name*/vars/main.yml file.
 
@@ -39,14 +39,14 @@ As a user, you never have to edit these files but each default global or role va
 <a name="group-specific-configuration"></a>
 
 Group specific configuration
--------------------------------------
+----------------------------
 
 In the group_vars/*group_name*.yml file, you can override some variables for the related group.
 
 <a name="host-specific-configuration"></a>
 
 Host specific configuration
------------------------------------
+---------------------------
 
 In the host_vars/*host_name*.yml file, you can override some variables for the related host.
 
