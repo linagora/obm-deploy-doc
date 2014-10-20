@@ -1,6 +1,6 @@
-Ansible brought to OBM-Deploy the ability to be configured in many ways to perfectly fit to your needs.
+Ansible brought to OBM-Deploy the ability to be configured in many ways to perfectly fit your needs.
 
-OBM-Deploy uses a large amount of configuration files but don't panic, they are organized is such a manner that makes it easy to understand.
+OBM-Deploy uses a large amount of configuration files but don't panic, they are organized is a manner that makes them easy to understand.
 
 To learn more about Ansible variables precedence, please refer to the [dedicated documentation](http://docs.ansible.com/playbooks_variables.html#variable-precedence-where-should-i-put-a-variable "Variables precedence on docs.ansible.com").
 
@@ -32,7 +32,7 @@ Specific configuration
 
 Role specific default configuration, if applicable, is stored in roles/*role_name*/vars/main.yml file.
 
-As a user, you never have to edit this files but each default global or role variable can be overridden on per-host or a per-group basis.
+As a user, you never have to edit these files but each default global or role variable can be overridden on per-host or a per-group basis.
 
 <a name="group-specific-configuration"></a>
 

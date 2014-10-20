@@ -36,8 +36,8 @@ Objectives
 
  - Quickly build deployment environments
  - Standardize OBM installations
- - Extract configuration management from packaging
- - Make deployments costless and more efficients
+ - Separate configuration management from packaging
+ - Make deployments costless much more simple and efficient
 
 
 <a name="current-status"></a>
@@ -47,7 +47,7 @@ Current Status
 
  - Centos 6 and RHEL 6 support
  - OBM 2.5 and OBM 3.0 branches
- - Support connectionless remote hosts
+ - Support remote hosts without direct internet access
  - No clustering feature available yet
 
 <a name="disclaimer"></a>
@@ -56,7 +56,7 @@ Disclaimer
 --------------
 
 OBM-Deploy automatically updates and sometimes overwrites your configuration files.
-It's behavior is subject to change. Use it with caution, especially in production.
+Its behavior is subject to change. Use it with caution, especially in production.
 We discourage you to use it to update an already installed OBM infrastructure.
 OBM-Deploy isn't included yet in Linagora's commercial support offers.
 
@@ -78,7 +78,7 @@ Documentation
 About ansible
 ------------------
 
-[About ansible](docs/ansible.md) : Become familiar with Ansible basic concepts
+[About ansible](docs/ansible.md) : Become familiar with basic Ansible concepts
 
 <a name="installation"></a>
 

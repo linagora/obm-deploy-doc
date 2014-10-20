@@ -1,7 +1,7 @@
 
-Inventory file allows you to describe your OBM infrastructure.
+Inventory file allow to describe your OBM infrastructure.
 
-For more informations about inventory files, please refer to [Ansible's dedicated documentation](http://docs.ansible.com/intro_inventory.html "Inventory on docs.ansible.com").
+For more information about inventory files, please refer to [Ansible's dedicated documentation](http://docs.ansible.com/intro_inventory.html "Inventory on docs.ansible.com").
 
 #### Table of contents
 
@@ -10,7 +10,7 @@ For more informations about inventory files, please refer to [Ansible's dedicate
 
 - [obmfull-example inventory file](#obmfull-example-inventory-file)
   - [Quick introduction](#quick-introduction)
-  - [First steps of customization](#first-steps-of-customization)
+  - [First customization steps](#first-customization-steps)
 - [More advanced customization](#more-advanced-customization)
   - [Nested groups](#nested-groups)
   - [Ansible limitation in nested groups](#ansible-limitation-in-nested-groups)
@@ -24,7 +24,7 @@ For more informations about inventory files, please refer to [Ansible's dedicate
 obmfull-example inventory file
 ==========================
 
-This inventory is provided has an example of how to deploy OBM on a single host.
+This inventory is provided as an example of how to deploy OBM on a single host.
 
 <a name="quick-introduction"></a>
 
@@ -51,20 +51,20 @@ Let's take a look at the first part of the file :
     [cyrusfrontservers]
     [smtpservers]
 
-Has you probably know if you've read [Ansible's dedicated documentation](http://docs.ansible.com/intro_inventory.html "Inventory on docs.ansible.com"), inventory files are a kind of INI files where you can find groups between brackets and hosts.
+As you probably know if you've read [Ansible's dedicated documentation](http://docs.ansible.com/intro_inventory.html "Inventory on docs.ansible.com"), inventory files are a kind of INI files where you can find groups between brackets and hosts.
 
-This example inventory allows you to deploy a single OBM hosts supporting all services by simply replacing obm.example.com by your own hostname in obmfull group.
+This example inventory allows you to deploy a single OBM host supporting all services by simply replacing obm.example.com by your own hostname in obmfull group.
 
-<a name="first-steps-of-customization"></a>
+<a name="first-customization-steps"></a>
 
-First steps of customization
+First customization steps
 -------------------------------------
 
-As you can see, there are other groups with no hosts in the part of the file.
+As you can see, there are other groups with no hosts in this part of the file.
 
 You can use them to split your deployment into more than one remote host.
 
-For example, you can store your database on a separated server as below :
+For example, you can store your database on a separate server as below :
 
     #
     # Customized example inventory file with separated database server
@@ -120,7 +120,7 @@ While the first part of the file is provided to simplify your life, the second p
 Nested groups
 -------------------
 
-Groups in the second part are the most important ones. Only them are associated with roles
+The groups in the second part are the most important ones. Only them are associated with roles
 
 In the obmfull-example inventory file, they are composed of nested groups from the first part.
 
@@ -144,7 +144,7 @@ To deploy a fine tuned distributed OBM infrastructure you'll need to rewrite the
 Focus on groups
 ----------------------
 
-Some of the second part groups must contain only one host but in other, you can put more of them.
+Some of the groups in the second part must contain only one host but in other, you can put more of them.
 
 To see a detailed list of all roles and their corresponding groups, please refer to [roles reference](./roles.md "Roles reference").
 

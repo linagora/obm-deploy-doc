@@ -14,11 +14,11 @@ We recommend you to choose a manual installation strategy even if this is a litt
 - [Common packages for all methods](#common-packages-for-all-methods)
   - [Install common packages on Debian GNU/Linux Wheezy](#install-common-packages-on-debian-gnulinux-wheezy)
   - [Install common packages on CentOS Linux 6](#install-common-packages-on-centos-linux-6)
-- [Packages based installation](#packages-based-installation)
-  - [Packages installation on Debian GNU/Linux Wheezy](#packages-installation-on-debian-gnulinux-wheezy)
+- [Package-based installation](#package-based-installation)
+  - [Package installation on Debian GNU/Linux Wheezy](#package-installation-on-debian-gnulinux-wheezy)
     - [Enable Wheezy Backports](#enable-wheezy-backports)
     - [Install packages](#install-packages)
-  - [Packages installation on CentOS Linux 6](#packages-installation-on-centos-linux-6)
+  - [Package installation on CentOS Linux 6](#package-installation-on-centos-linux-6)
     - [Enable EPEL repository](#enable-epel-repository)
     - [Install packages](#install-packages-1)
 - [Common prerequisites for manual methods](#common-prerequisites-for-manual-methods)
@@ -64,7 +64,7 @@ First of all, you need to install git.
 Install common packages on Debian GNU/Linux Wheezy
 ---------------------------------------------------------------------------
 
-*This step should also works on other .deb based distros (Ubuntu, Mint ...).*
+*This step should also work on other .deb based distros (Ubuntu, Mint ...).*
 
     $ sudo aptitude install git python-dev wget
 
@@ -73,23 +73,23 @@ Install common packages on Debian GNU/Linux Wheezy
 Install common packages on CentOS Linux 6
 -----------------------------------------------------------
 
-*This step should also works other .rpm based distros (Fedora, Mandriva ...).*
+*This step should also work other .rpm based distros (Fedora, Mandriva ...).*
 
     $ sudo yum install git python-devel wget
 
 <a name="packages-based-installation"></a>
 
 <br>
-Packages based installation  [&#x25B2;](#top-page "back to top")
+Package-based installation  [&#x25B2;](#top-page "back to top")
 =======================
 
-Currently, only dependencies can be installed using packages.
+Unfortunately, obm-deploy is not packaged yet.
 
-This is why everyone needs git to obtain obm-deploy sources.
+It is necessary to obtain it via Git.
 
-<a name="packages-installation-on-debian-gnulinux-wheezy"></a>
+<a name="package-installation-on-debian-gnulinux-wheezy"></a>
 
-Packages installation on Debian GNU/Linux Wheezy
+Package installation on Debian GNU/Linux Wheezy
 ---------------------------------------------------------------------
 
 <a name="enable-wheezy-backports"></a>
@@ -104,11 +104,11 @@ Packages installation on Debian GNU/Linux Wheezy
 
 ### Install packages
 
-*This step should also works on other .deb based distros (Ubuntu, Mint ...).*
+*This step should also work on other .deb based distros (Ubuntu, Mint ...).*
 
     $ sudo aptitude install ansible
 
-<a name="packages-installation-on-centos-linux-6"></a>
+<a name="package-installation-on-centos-linux-6"></a>
 
 Packages installation on CentOS Linux 6
 -----------------------------------------------------
@@ -128,7 +128,7 @@ Packages installation on CentOS Linux 6
 
 ### Install packages
 
-*This step should also works on other .rpm based distros (Fedora, Mandriva ...).*
+*This step should also work on other .rpm based distros (Fedora, Mandriva ...).*
 
     $ sudo yum install ansible
 
@@ -155,7 +155,7 @@ Install prerequisites on Debian GNU/Linux Wheezy
 
 ### Install packages
 
-*This step should also works on .deb based distros (Debian, Mint ...).*
+*This step should also work on .deb based distros (Debian, Mint ...).*
 
     $ sudo aptitude install python-virtualenv python-pip
 
@@ -178,7 +178,7 @@ Install prerequisites on CentOS Linux 6
 
 ### Install packages
 
-*This step should also works on other .rpm based distros (Fedora, Mandriva ...).*
+*This step should also work on other .rpm based distros (Fedora, Mandriva ...).*
 
     $ sudo yum install python-virtualenv python-pip
 
@@ -258,7 +258,7 @@ Manual installation using virtualenvwrapper (recommended)  [&#x25B2;](#top-page 
 Install virtualenvwrapper on Debian GNU/Linux Wheezy
 ---------------------------------------------------------------------------
 
-*This step should also works on other .deb based distros (Ubuntu, Mint ...).*
+*This step should also work on other .deb based distros (Ubuntu, Mint ...).*
 
 
     $ sudo aptitude install virtualenvwrapper
@@ -268,7 +268,7 @@ Install virtualenvwrapper on Debian GNU/Linux Wheezy
 Install virtualenvwrapper on CentOS Linux 6
 -------------------------------------------------------------
 
-*This step should also works on other .rpm based distros (Fedora, Mandriva ...).*
+*This step should also work on other .rpm based distros (Fedora, Mandriva ...).*
 
 
     $ yum install python-virtualenvwrapper
