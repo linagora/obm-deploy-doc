@@ -22,6 +22,7 @@ For more information about inventory files, please refer to [Ansible's dedicated
 
 <a name="obmfull-example-inventory-file"></a>
 
+<br>
 obmfull-example inventory file  [&#x25B2;](#top-page "back to top")
 ==========================
 
@@ -111,6 +112,7 @@ You can now launch your deployment as usual :
 
 <a name="more-advanced-customization"></a>
 
+<br>
 More advanced customization  [&#x25B2;](#top-page "back to top")
 =========================
 
