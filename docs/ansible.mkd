@@ -1,3 +1,5 @@
+<a name="top-page"></a>
+
 Ansible is a tool to automate tasks execution on remote hosts.
 
 #### Table of contents
@@ -22,7 +24,7 @@ Ansible is a tool to automate tasks execution on remote hosts.
 
 <a name="ansible-documentation"></a>
 
-Ansible documentation
+Ansible documentation  [&#x25B2;](#top-page "back to top")
 ===================
 
 <a name="yaml-syntax"></a>
@@ -48,7 +50,7 @@ Official documentation
 
 <a name="ansible-terminology"></a>
 
-Ansible terminology
+Ansible terminology  [&#x25B2;](#top-page "back to top")
 =================
 
 <a name="inventory"></a>

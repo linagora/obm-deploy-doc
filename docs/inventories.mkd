@@ -1,3 +1,4 @@
+<a name="top-page"></a>
 
 Inventory file allow to describe your OBM infrastructure.
 
@@ -21,7 +22,7 @@ For more information about inventory files, please refer to [Ansible's dedicated
 
 <a name="obmfull-example-inventory-file"></a>
 
-obmfull-example inventory file
+obmfull-example inventory file  [&#x25B2;](#top-page "back to top")
 ==========================
 
 This inventory is provided as an example of how to deploy OBM on a single host.
@@ -110,7 +111,7 @@ You can now launch your deployment as usual :
 
 <a name="more-advanced-customization"></a>
 
-More advanced customization
+More advanced customization  [&#x25B2;](#top-page "back to top")
 =========================
 
 While the first part of the file is provided to simplify your life, the second part is where the magic happens.
