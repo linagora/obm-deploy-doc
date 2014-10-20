@@ -49,5 +49,3 @@ Host specific configuration
 ---------------------------
 
 In the host_vars/*host_name*.yml file, you can override some variables for the related host.
-
-[dedicated documentation]: http://docs.ansible.com/playbooks_variables.html#variable-precedence-where-should-i-put-a-variable "Variables precedence on docs.ansible.com"
