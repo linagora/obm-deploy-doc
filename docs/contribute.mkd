@@ -22,7 +22,7 @@ You can contribute to this project in many ways.
 Declaring an issue  [&#x25B2;](#top-page "back to top")
 ==================
 
-Your can declare issues using our [official bugtracker].
+Your can declare issues using our [official bugtracker](http://ci-obm.linagora.com/jira/browse/DEPLOY "OBM-Deploy offcial Jira bugtracker").
 
 <a name="before-declaring-an-issue"></a>
 
@@ -30,7 +30,7 @@ Before declaring an issue
 -------------------------
 
  * Ensure you (we) can easily reproduce your issue using simple steps
- * Check your installation using our [installation procedure]
+ * Check your installation using our [installation procedure]( install.mkd "OBM-Deploy installation procedure")
  * Check you have root acces to your remote hosts using ssh
  * Check if your issue isn't already declared using our search engine
 
@@ -88,7 +88,3 @@ Syntax
 * If your variable is a configuration key, place it in group_vars/all
 * If your variable is specific to a group and will never been update by users, place it in group_vars/your_group
 * If your variable is specific to a role and will never been update by users, place it role/you_role/vars
-
-[official bugtracker]: http://ci-obm.linagora.com/jira/browse/DEPLOY "OBM-Deploy offcial Jira bugtracker"
-[installation procedure]: install.md "OBM-Deploy installation procedure"
-

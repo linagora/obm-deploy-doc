@@ -44,7 +44,7 @@ It will be used to copy all needed packages to your local computer.
 
 It's required to use default obmfdull-example without any customization.
 
-For more information about this step, please refer to our [quickstart guide].
+For more information about this step, please refer to our [quickstart guide](quickstart.mkd "OBM Deploy quickstart guide").
 
     $ ansible-playbook -i obmfull-example obm.yml
 
@@ -62,7 +62,7 @@ We can't help you at this point.
 Build ressources directory  [&#x25B2;](#top-page "back to top")
 ==========================
 
-To build your ressources directory, you need to use [provided shell script].
+To build your ressources directory, you need to use [provided shell script](../build-resources-dir.sh "OBM Deploy ressources dir building script").
 
 <a name="install-a-fully-fonctionnal-web-server"></a>
 
@@ -101,7 +101,3 @@ Sync time using your own computer (optional)  [&#x25B2;](#top-page "back to top"
 If you have a functionnal NTP server on your computer and want to keep remote hosts in sync with it, you can specify your own IP address in config.yml using **ntp_server** variable.
 
 Otherwise, remote hosts will be synced only once, when you install them.
-
-[quickstart guide]: quickstart.mkd "OBM Deploy quickstart guide"
-[provided shell script]: ../build-resources-dir.sh "OBM Deploy ressources dir building script"
-
